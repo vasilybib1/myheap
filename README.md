@@ -9,8 +9,8 @@ Small quick project based on what we learnt in class. Allows the user to create 
 struct myheap* h = heapCreate(256);
 
 // allocates memory on that heap
-int* arr1 = myheapMalloc(h, sizeof(int)\*5);
-int* arr2 = myheapMalloc(h, sizeof(int)\*10);
+int* arr1 = myheapMalloc(h, sizeof(int) * 5);
+int* arr2 = myheapMalloc(h, sizeof(int) * 10);
 
 // data modification
 arr1[0] = 1;
